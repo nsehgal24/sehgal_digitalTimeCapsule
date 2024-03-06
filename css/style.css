@@ -1,0 +1,131 @@
+body{
+background: #B3CFE4;
+}
+
+.gif{
+  background: #5E8FA4;
+  margin-top: -10%;
+}
+
+nav{
+color: black;
+margin-left: 50px;
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+gap: 200px;
+width: 100%;
+padding-top: 2%;
+padding-bottom: 3%;
+font-family: Koulen;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav img{
+margin-top: 5px;
+width: 170px;
+height: 150px;
+}
+
+.aboupage{
+  display: flex;
+  align-content: column;
+  margin-top: 8%;
+}
+
+.photos{
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  display: flex;
+  align-content: row;
+  margin-left: 10%;
+  gap: 10%;
+  margin-bottom: 5%;
+}
+
+h1{
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+margin-top: 100px;
+text-transform: uppercase;
+color:white;
+}
+
+p{
+display: flex;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 620px;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+
+.portrait{
+  margin-top: 10%;
+  width: 425px;
+  height: 575px;
+  border-radius: 10px;
+}
+
+.hiking{
+  margin-top: 10%;
+  width: 425px;
+  height: 425px;
+  border-radius: 10px;
+}
+
+.landing{
+  width: 100%;
+  height: 100%;
+}
+
+.explore{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.Spotify{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding: 2%;
+}
+
+.VSCO{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 400px;
+  padding: 2%;
+}
+
+.Chipotle{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    padding: 2%;
+}
+
+.instagram{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+  padding: 2%;
+}
