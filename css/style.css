@@ -231,25 +231,25 @@ margin-top: 75px;
 .homepage{
   display: flex;
   align-content: row;
-  margin-left: 3%;
+  margin-left: 7%;
   margin-top: 5%;
 }
 
 .home{
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: -7%;
 }
 
 .homeimg{
   display: flex;
-  width: 50%;
-  margin-left: 3%;
+  width: 40%;
+  margin-left: 7%;
   border-radius: 20px;
 }
 
 .welcome{
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .footer {
