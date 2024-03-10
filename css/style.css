@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
 background: #B3CFE4;
 }
@@ -8,11 +13,9 @@ background: #B3CFE4;
 }
 
 nav{
-color: black;
-margin-left: 50px;
 display: flex;
 flex-direction: row;
-align-content: flex-end;
+justify-content: center;
 gap: 200px;
 width: 100%;
 padding-top: 2%;
@@ -23,8 +26,13 @@ font-style: normal;
 font-weight: 400;
 }
 
+a:hover {
+  color: white;
+}
+
 a{
   text-decoration: none;
+  color: black;
 }
 
 nav img{
@@ -37,6 +45,7 @@ height: 150px;
   display: flex;
   align-content: column;
   margin-top: 8%;
+  
 }
 
 .photos{
@@ -56,14 +65,35 @@ h1{
 font-family: Raleway;
 font-size: 40px;
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 margin-top: 100px;
 text-transform: uppercase;
 color:white;
 }
 
+h2{
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+width: 620px;
+letter-spacing: 1px;
+line-height: 1.5;
+color: #1d3557;
+}
+
+h3{
+font-family: Raleway;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+margin-top: 100px;
+text-transform: uppercase;
+color:white;
+align-content: center;
+}
+
 p{
-display: flex;
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -71,6 +101,7 @@ font-weight: 400;
 width: 620px;
 letter-spacing: 1px;
 line-height: 1.5;
+color: #1d3557;
 }
 
 .portrait{
@@ -92,40 +123,149 @@ line-height: 1.5;
   height: 100%;
 }
 
+.intro{
+  margin-top: 30px;
+ margin-left: 30%;
+}
+
 .explore{
+gap: 10px;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 75px;
 }
 
 .Spotify{
+  margin-top: 5px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 40%;
-  padding: 2%;
+  width: 620px;
+  gap: 20px;
 }
 
 .VSCO{
   display: flex;
   flex-direction: row;
-  width: 200px;
-  height: 400px;
-  padding: 2%;
+  margin-left: 15px;
+  width: 300px;
+  height: 600px;
+  gap: 20px;
+}
+
+.VSCO img{
+  border-radius: 20px;
 }
 
 .Chipotle{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 400px;
-    padding: 2%;
+  margin-top: 630px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 300px;
+  height: 600px;
+  gap: 20px;
+}
+
+.Chipotle img{
+  border-radius: 20px;
 }
 
 .instagram{
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 400px;
+  width: 300px;
+  height: 600px;
   padding: 2%;
+  gap: 20px;
+  margin-left: 715px;
+  margin-top: -637px;
+}
+
+.instagram img{
+  border-radius: 20px;
+}
+
+.REI{
+  display: flex;
+  flex-direction: row;
+  margin-top: -310px;
+  margin-left: -985px;
+  width: 300px;
+  height: 600px;
+  gap: 30px;
+}
+
+.REI img{
+  border-radius: 20px;
+}
+
+.Exercise{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+  padding: 2%;
+  gap: 20px;
+  margin-left: 310px;
+  margin-top: -12px;
+}
+
+.Exercise img{
+  border-radius: 20px;
+}
+
+.HProject{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  margin-left: 90px;
+  margin-top: -340px;
+}
+
+.HProject img{
+  border-radius: 20px;
+}
+
+.homepage{
+  display: flex;
+  align-content: row;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.homeimg{
+  display: flex;
+  width: 50%;
+  margin-left: 3%;
+  border-radius: 20px;
+}
+
+.welcome{
+  margin-top: 5%;
+}
+
+.footer {
+  margin-top: 5%;
+  display: flex;
+  align-items: row;
+  width: 100%;
+  height: 60px; 
+  background-color: #1d3557;
+  justify-content: end;
+  gap: 10px;
+}
+
+.footer img{
+  margin-top: 7px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
 }
